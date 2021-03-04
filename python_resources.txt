@@ -1,0 +1,5 @@
+Online Book:
+https://books.trinket.io/pfe/
+
+Freecodecamp's Python Course:
+https://www.freecodecamp.org/learn/scientific-computing-with-python/
