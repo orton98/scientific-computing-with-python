@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    fhand = open("demo.txt")
+    fhand = open("../chp_10_tuples/demo.txt")
     domains = []
     for line in fhand:
         if line.startswith('From'):
