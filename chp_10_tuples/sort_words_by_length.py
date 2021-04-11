@@ -3,7 +3,7 @@ if __name__ == '__main__':
     words = mystr.split()
     wordList = []
     for word in words:
-        wordList.append((len(word),word))
+        wordList.append((len(word), word))
     sortedList = []
     wordList.sort()
     for length, word in wordList:
