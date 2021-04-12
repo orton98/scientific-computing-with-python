@@ -8,10 +8,12 @@ if __name__ == '__main__':
     }
 
     lst = []
-    for key,value in data.items():
+    for key, value in data.items():
         # sort data dictionary by key
-        # lst.append((key, value))
+        lst.append((key, value))
         # sort data dictionary by value
-        lst.append((value, key))
+        #lst.append((value, key))
     lst.sort()
-    print(lst)
+    for l in lst:
+        print(l[0])
+        

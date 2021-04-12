@@ -1,5 +1,6 @@
 from __future__ import print_function, division
 
+
 def sqrt_bisect(z, tol=1E-12):
     ''' Find the square root of `z` by bisection, with tolerance `tol` '''
     lo, hi = 0, z
@@ -10,10 +11,9 @@ def sqrt_bisect(z, tol=1E-12):
             break
 
         if delta > 0:
-            #Too high
+            # Too high
             hi = mid
         else:
-            #Too low
+            # Too low
             lo = mid
-
     return mid
