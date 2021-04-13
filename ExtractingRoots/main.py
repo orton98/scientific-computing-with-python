@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # bisect 1 find root of equation
     sqrt_two = lambda x: 2.0 - x*x
     eq3 = lambda x: 6 - x - x**3
-    seventh_root_126 = lambda x: 126 ** (1/7)
+    seventh_root_126 = lambda x: 126 - x**7
     a = 1
     b = 5
 
@@ -31,6 +31,7 @@ if __name__ == '__main__':
     print("########################################")
     print("7th root 126 with Epsilon .01 : ")
     x_seventh_root_126 = b1.bisect1(seventh_root_126, a, b, epis1)
+    print(x_seventh_root_126)
     print(seventh_root_126(x_seventh_root_126))
     print("\n\n")
 
